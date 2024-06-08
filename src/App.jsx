@@ -9,9 +9,9 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import fetchPhotos from "./fetchPhotos";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import ImageModal from "./components/ImageModal/ImageModal";
-import LoadMoreBtn from "./components/Loader/LoadMoreBtn";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import ErrorMessage from "./ErrorMassage/ErrorMessage";
-import Loader from "./components/LoadMoreBtn/Loader";
+import Loader from "./components/Loader/Loader";
 
 const App = () => {
   const [page, setPage] = useState(1);
